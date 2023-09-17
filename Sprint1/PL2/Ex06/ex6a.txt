@@ -1,0 +1,5 @@
+There is no need for a synchronization mechanism because 
+the pipe function follows the FIFO structure. That means that
+when data is written to the write end of the pipe, the kernel 
+ensures that all this data is received (read) by another process
+before any subsequent write operation tries to write to the pipe.

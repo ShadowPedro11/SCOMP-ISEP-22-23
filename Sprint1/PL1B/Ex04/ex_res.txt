@@ -1,0 +1,24 @@
+a) The more suitable to handle signals is sigaction because according to the documentation "the  behavior 
+of signal() varies across UNIX versions, and has also varied historically across different versions of Linux.  
+Avoid its use:  use sigaction(2) instead."
+
+
+b) The first argument is "sig" and specifies the signal that will be associated with the action. It can be any 
+valid signal except SIGKILL and SIGSTOP.
+    The second argument is "act". It is a pointer to a struct sigaction and specifies the action to be taken
+    when the signal "sig" is received. In POSIX, it can be the strcut sigaction contains teh following members:
+
+        - sa_handler: Specifies the signal handler function that will be called when the signal is 
+            received. It can be set to SIG_DFL to use the default action for the signal,  SIG_IGN to ignore the signal
+            to a programmer's handling function.
+
+        - sa_sigaction: Specifies an alternative signal handler function that provides additional information 
+        about the signal, such as the source of the signal. Requires that the SA_SIGINFO option is set in the
+        sa_flags field. 
+
+        - sa_mask: Used to specify which signals should be blocked during the signal handling. The signal is delayed until 
+        it becomes unblocked (i.e. when the handler completes).
+
+        - sa_flags: Used to modify the behaviour of the signal.
+
+    The last argument is "oact" and, if not NULL, is used to store the previously set action details.

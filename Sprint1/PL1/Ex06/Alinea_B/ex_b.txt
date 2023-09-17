@@ -1,0 +1,6 @@
+The change would be to put the funtion exit(0) inside the is statement.
+
+if (fork() == 0) {
+    sleep(1); /*sleep(): unistd.h*/
+    exit(0);
+}

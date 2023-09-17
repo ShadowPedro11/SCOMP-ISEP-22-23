@@ -1,0 +1,19 @@
+PATTERN
+
+Synchronization of processes with events
+
+
+
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+Three semaphores
+1 controls the execution of the father, initialized 0
+1 controls the execution of the first child, initialized 1
+1 controls the execution of the second child, initialized 0
+
+The two childs are created. The semaphore that controls the first child is initialized to 1 so that
+it can be the first process to print the message. Then the first child increments the father's semaphore,
+the father increments the second child's semaphore and finally the second child increments the first child's 
+semaphore. This repeats 15 times inside the for cycle.
+-------------------------------------------------------------------------------

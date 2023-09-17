@@ -1,0 +1,1 @@
+The variable that will have the same value in both processes is "a".

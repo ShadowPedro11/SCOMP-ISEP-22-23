@@ -1,0 +1,13 @@
+PATTERN
+
+Mutual Exclusion
+
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+In this programm we have a function that generates a random number between 1 and 100 if the number. 
+If between 1 and 70 the programms writes else the programm delete.
+This programm use a timedwait that waits for 12 seconds to access the shared memmory if the proccess cannot have access it presents a message 
+saing this.
+
+-------------------------------------------------------------------------------

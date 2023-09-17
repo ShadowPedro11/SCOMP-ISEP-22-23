@@ -1,0 +1,2 @@
+Ao clicar no CTRL+C é enviado um sinal de interrupção para o processo em execução no terminal.
+O sinal recebido é o SIGINT que faz com que o processo em execução pare.

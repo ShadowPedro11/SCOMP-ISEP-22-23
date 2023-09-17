@@ -1,0 +1,17 @@
+Q.a: Assume that the PID of the child process is 1234. What is the output of this code in the terminal? Justify your answer.
+
+	2. x = 0          -- Pai
+	3. 1234; x = 0    -- Pai -> PID=1234
+	1. x = 2          -- Filho
+	3. 0; x = 2       -- Filho -> PID=0
+	
+	Ocorre o fork() com x=1
+	Depois ocorre o processo pai onde x vai ser igual a x-1 logo x = 0
+	PID do pai vai ser 1234
+	Depois ocorre o processo filho onde x vai ser igual a x+1 logo x = 2
+	PID do filho vai ser 0
+
+	
+Q.b: Are you always guaranteed to see the output of the printf() in line 9 before the one in line 11? Explain. 
+	
+	Não, a ordem em que os processos vão ocorrer vai depender do escalondor de tarefas/processos utilizado.

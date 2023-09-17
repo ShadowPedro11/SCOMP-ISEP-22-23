@@ -1,0 +1,6 @@
+a) No, there is one child process missing. The second child 
+does not appear because in the code given the parent process waits
+for the second child to finish and only then it begins the infinite loop.
+
+b) Yes there is <defunct> writen. It means that the child process finished 
+before the parent so it needs to store  its exit information.

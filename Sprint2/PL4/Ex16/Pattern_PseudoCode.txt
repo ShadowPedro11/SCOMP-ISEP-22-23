@@ -1,0 +1,13 @@
+PATTERN
+
+mutual exclusion accessing shared resources
+
+controlling access to resources with a limited capacity
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+The program will use a semphore to know when all values are calculated, the sempahore will be initialized will the value of the final vector
+
+Then the programm allow only one proccess to write in memory, will check if the value writed is the biggest one and then allow other process to continue the work.
+
+-------------------------------------------------------------------------------

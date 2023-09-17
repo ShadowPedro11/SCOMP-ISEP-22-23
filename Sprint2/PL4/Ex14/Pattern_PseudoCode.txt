@@ -1,0 +1,16 @@
+PATTERN
+
+Synchronization of processes with events
+
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+This program will implent a "priority".
+When a process Ax arrives it will block the proccess Bx.
+When a process Bx arrives it will block the proccess Ax.
+
+If a process Ax is executing other processes Ax can arrive, the same for Bx.
+
+So the first proccess to arrive will give priority to his "family".
+
+-------------------------------------------------------------------------------

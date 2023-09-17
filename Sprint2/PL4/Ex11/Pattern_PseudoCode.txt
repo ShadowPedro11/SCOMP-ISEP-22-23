@@ -1,0 +1,20 @@
+PATTERN
+
+mutual exclusion accessing shared resources
+
+synchronization of processes with events
+controlling access to resources with a limited capacity
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+1 sempahore will controll and have the number of tickets the client check if this semaphore is "on" so 
+he have to consume
+
+1 sempahore will controll the execution of clients 1 per time
+
+1 sempahore at the Server will wait a client arrive, when he arrive write a ticket in shma and increments other 
+semaphore to make client get the ticket
+
+1 semaphore make client wait until getting it tickets
+
+-------------------------------------------------------------------------------

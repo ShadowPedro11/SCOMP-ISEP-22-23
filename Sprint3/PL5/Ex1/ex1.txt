@@ -1,0 +1,5 @@
+a) 5 process are created
+
+
+b) Only 2 process enter on "create threads part"
+   Each "create threads part" creates 1 thread so 2 threads will be created

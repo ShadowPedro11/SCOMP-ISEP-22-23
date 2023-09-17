@@ -1,0 +1,14 @@
+PATTERN
+
+Mutual Exclusion: 
+If a process is executing in its critical section, then no other process is allowed to execute in the critical section.
+
+
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+Two semaphore
+1 controls the execution of process
+1 controls the read and write action of a process
+
+-------------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+PATTERN
+
+Mutual exclusion
+
+While one prints, the other waits.
+
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+Two semaphores
+1 controls the flow of the writing, initialized 1
+1 controls the difference between the number of 'S' and 'C' printed, initialized 2
+
+-------------------------------------------------------------------------------

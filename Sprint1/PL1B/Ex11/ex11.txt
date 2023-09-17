@@ -1,0 +1,2 @@
+The signals SIGKILL(9) and SIGSTOP(19) cannot be blocked.
+This signals cannot be blocked because we need to a way to ensure that we can force the termination or suspension of a process.

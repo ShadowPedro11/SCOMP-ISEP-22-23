@@ -1,0 +1,4 @@
+The results may not always be correct due to race conditions that can occur when multiple processes access shared memory concurrently. 
+For example, if the parent process increments the first value while the child process also tries to increment it, the final value may 
+not reflect both increments. However, in this particular case, since the parent and child processes are both modifying different values 
+and there are no dependencies between the operations, the final values should always be correct.

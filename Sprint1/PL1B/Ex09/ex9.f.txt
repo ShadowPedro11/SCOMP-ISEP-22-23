@@ -1,0 +1,3 @@
+Quando é enviado um sinal SIGINT ao processo do exercicio 5.c o programa faz print da messagem I won’t let the process end with CTRL-C!
+
+Quando é enviado um sinal SIGINT ao processo do exercicio 5.e o programa é interrompido.

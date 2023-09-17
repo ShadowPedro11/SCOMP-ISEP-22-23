@@ -1,0 +1,11 @@
+Q.a: How many processes are created by this code?
+
+R: 8
+
+Q.b: Draw a process tree that describes the processes created.
+
+
+
+Q.c: How many times is “SCOMP” printed?
+
+R: 8

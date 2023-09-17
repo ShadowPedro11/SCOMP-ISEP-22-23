@@ -1,0 +1,5 @@
+A função printf() é uma função 'not safe' ao contrário da função write();
+
+A função printf() não é uma função async-signal-safe um subconjunto das funções da biblioteca padrão C que podem ser chamadas com segurança quando é executado um 'signal handler' porque não executam operações que possam ser interrompidas pela entrega de um sinal. 
+
+"Printf() envolve o armazenamento em buffer interno e a alocação de memória, o que pode resultar em um bloqueio se um sinal for entregue enquanto printf() estiver em execução. Isso pode levar a comportamento indefinido, como o programa travando ou parando de funcionar."

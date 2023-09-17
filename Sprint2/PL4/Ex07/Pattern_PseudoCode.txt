@@ -1,0 +1,13 @@
+PATTERN
+
+Barrier:
+All processes need to execute the core before the barrier, before any of them can proceed
+
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+
+Implemeted a barrier taht waits for 6 process.
+The process generates a random number, if the number id odd excecute buy beer else execute buy chips
+At the end all executes eat and drink
+-------------------------------------------------------------------------------

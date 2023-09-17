@@ -1,0 +1,1 @@
+O %1 indica o número do 'job' a apagar para encerrar o processo que estava suspenso.

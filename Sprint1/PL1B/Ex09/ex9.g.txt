@@ -1,0 +1,3 @@
+Quando é enviado um sinal SIQUIT ao processo do exercicio 5.c o programa é interrompido.
+o programa é interrompido.
+Quando é enviado um sinal SIGQUIT ao processo do exercicio 5.e o programa faz print da messagem I won’t let the process end by pressing CTRL-\

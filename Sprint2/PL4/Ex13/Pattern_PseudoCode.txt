@@ -1,0 +1,19 @@
+PATTERN
+
+mutual exclusion accessing shared resources
+
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+Reader:
+The reader program dont hold writer but holds readers so if a write arrive i can lock readers
+The writers will execute after the readers in execution end
+
+
+
+Writer:
+The writer block readers and writers ensuring that only one reader can execute at a time
+When executing this will block readers
+When the last writer leaves the critical section , then the readers will execute
+
+-------------------------------------------------------------------------------

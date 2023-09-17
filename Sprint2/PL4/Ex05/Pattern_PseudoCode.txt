@@ -1,0 +1,12 @@
+PATTERN
+
+Synchronization of processes with events
+
+-------------------------------------------------------------------------------
+PSEUDO CODE
+
+Three semaphore
+If 1 is activated the other 2 are deactivated
+Activation order is: 1-2-3-1-2-3
+
+-------------------------------------------------------------------------------
